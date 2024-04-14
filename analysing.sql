@@ -30,15 +30,21 @@ SELECT * FROM sales.transactions
 WHERE sales_amount<=0;
 
 SELECT DISTINCT currency FROM transactions ;
-
+/*Since these are the different currencies present although in same format but are stored differntly
+usually these problems occurs due to the problem in the storage of data
+and these kind of issues are first reported to the software engineers who handle them
+and any action is taken to resolve it 
+else if it is okay then we can eliminate the duplicate currencies for example like INR or INR\r we can choose between these to 
+eliminate one and keep one by removing the one with less rows
+And we can check that by using the given below commands👇👇*/
 /*
 'INR'
 'USD'
 'INR\r'
 'USD\r'
 */
-SELECT COUNT(*) FROM transactions WHERE currency="INR";
-SELECT COUNT(*) FROM transactions WHERE currency="INR\r";
+SELECT COUNT(*) FROM transactions WHERE currency="INR"; /* 279 rows contains INR as currency*/
+SELECT COUNT(*) FROM transactions WHERE currency="INR\r"; /* '150000' rows contains INR\r as currency or we can say that it is stored in that way*/
 SELECT COUNT(*) FROM transactions WHERE currency="USD";
 SELECT COUNT(*) FROM transactions WHERE currency="USD\r";
 

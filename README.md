@@ -1,11 +1,13 @@
 
 # Sales Insights Using Data Analysis
 
-It is a automated dashboard of a real time comapany called "Atliq Hardware" company which provides quick and latest sales insights in order to support data driven decision making.
+It is a automated dashboard of a real time comapany called "Atliq Hardware" company. This dashboard provides quick and latest sales insights in order to support data driven decision making.
 
 The main entities to whom this project would be useful are the
 ->Sales department
 ->marketing department
+
+This dashboard would be useful for Data driven decision making
 
 Atliq Hardware is a company which supplies computer hardware and peripherals to many of the clents. They have clients like Elctricalsara stores,Electricalslytical,Excel stores,Premium stores,Nixon etc..
 
@@ -21,7 +23,7 @@ The Project flow would be :-
 
 ->Generating dashboards in Power BI
 
-Data Discovery :-->-Extracting the data
+Data Discovery :-->Extracting the data
 -
 
 Accquiring the data from the real existing company called Atliq Hardware
@@ -55,7 +57,7 @@ The messy data which we observed in the data analysing part we can clean it now 
 
 Also called as Transforming the data.
 
-Data Merging:-->
+Data Merging:
 -
 When we import data into power BI we have the MODEL VIEW option in it to the left corner of the screen.
 

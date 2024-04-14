@@ -9,7 +9,7 @@ The main entities to whom this project would be useful are the
 
 This dashboard would be useful for Data driven decision making
 
-Atliq Hardware is a company which supplies computer hardware and peripherals to many of the clents. They have clients like Elctricalsara stores,Electricalslytical,Excel stores,Premium stores,Nixon etc..
+Atliq Hardware is a company which supplies computer hardware and peripherals to many of the clents. They have clients like Electricalsara stores,Electricalslytical,Excel stores,Premium stores,Nixon etc..
 
 The Project flow would be :-
 

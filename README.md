@@ -1,7 +1,7 @@
 
 # Sales Insights Using Data Analysis
 
-It is a automated dashboard of a real time comapany called "Atliq Hardware" company. This dashboard provides quick and latest sales insights in order to support data driven decision making.
+It is a automated dashboard of a real time company called "Atliq Hardware" company. This dashboard provides quick and latest sales insights in order to support data driven decision making.
 
 The main entities to whom this project would be useful are the
 ->Sales department
